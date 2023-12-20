@@ -18,13 +18,10 @@ window.addEventListener('DOMContentLoaded', function(){
       btn.addEventListener('click', () =>{
         flower.style.opacity = 1;
         night.style.opacity = 1;
-
         btn.style.display = 'none';
-
-        pavel.style.opacity = 1;
-
         myAudio.src = 'flower.mp3';
         myAudio.play();
+        myAudio.currentTime = 0;
       });
 
       

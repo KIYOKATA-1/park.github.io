@@ -106,18 +106,6 @@ body {
   height: 60vmin;
   animation-delay: 0.8s;
 }
-h2{
-  color: white;
-  position: absolute;
-  text-align: center;
-  left: 10px;
-  font-family: 'Kanit', sans-serif;
-  top: 10px;
-}
-.pavel {
-  opacity: 0;
-}
-
 .flower--2 .flower__line__leaf--1 {
   animation: blooming-leaf-right var(--fl-speed) 1.9s backwards;
 }
