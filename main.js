@@ -26,4 +26,7 @@ window.addEventListener('DOMContentLoaded', function(){
         myAudio.src = 'flower.mp3';
         myAudio.play();
       });
-})
+
+      
+});
+
