@@ -21,9 +21,11 @@ window.addEventListener('DOMContentLoaded', function(){
         btn.style.display = 'none';
         myAudio.src = 'flower.mp3';
         myAudio.play();
-        myAudio.currentTime = 0;
       });
-
+      audio.addEventListener('ended', function () {
+        audio.currentTime = 0;
+        audio.play();
+    });
       
 });
 
